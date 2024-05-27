@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<troupe-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="troupe_list_schema.xsd">
+    <person>
+        <image>../images/troupe/hienadz_ausiannikau_.jpg</image>
+        <name>Геннадий Овсянников</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/illia_kruk.jpg</image>
+        <name>Илья Крук</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/ivan_aksioncyk.jpg</image>
+        <name>Иван Аксёнчик</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/julija_aucynina.jpg</image>
+        <name>Юлия Овчинина</name>
+    </person>
+
+    <person>
+        <image>../images/troupe/kaciaryna_kacan.jpg</image>
+        <name>Екатерина Качан</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/marharyta_harbacova.jpg</image>
+        <name>Маргарита Горбачёва</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/maryja_zacharevic.jpg</image>
+        <name>Марина Захаревич</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/michail_svita.jpg</image>
+        <name>Михаил Світа</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/nadzieja_azaranka.jpg</image>
+        <name>Надежда Азаренко</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/sviatlana_hulievic.jpg</image>
+        <name>Светлана Гулевич</name>
+    </person>
+    
+    <person>
+        <image>../images/troupe/taisa_uviadzienskaja.jpg</image>
+        <name>Таиса Увядзенская</name>
+    </person>
+</troupe-list>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<performances xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="performances_info_schema.xsd">
+    <performance>
+        <image>../images/performances/radio_tapok.jpg</image>
+        <name>Radio Tapok</name>
+        <age>15</age>
+        <description>Концерт популярной рок-группы</description>
+        <author-before>Исполнитель</author-before>
+        <author>Radio Tapok</author>
+        <director-before>Режиссер</director-before>
+        <director>Николай Алексеев</director>
+        <painter-before>Постановщик</painter-before>
+        <painter>Иван Иванов</painter>
+        <duration>2 часа</duration>
+        <date>05.06.2023 в 18:00</date>
+        <price>30 BYN</price>
+    </performance>
+
+    <performance>
+        <image>../images/performances/linkin_park.jpg</image>
+        <name>Linkin Park</name>
+        <age>15</age>
+        <description>Концерт легендарной рок-группы</description>
+        <author-before>Исполнитель</author-before>
+        <author>Linkin Park</author>
+        <director-before>Режиссер</director-before>
+        <director>Джозеф Хан</director>
+        <painter-before>Постановщик</painter-before>
+        <painter>Майк Шинода</painter>
+        <duration>1 час 30 минут</duration>
+        <date>07.06.2023 в 19:00</date>
+        <price>45 BYN</price>
+    </performance>
+</performances>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='be'>
+    <head>
+        <title>Концертный зал &#xab;"C-Hall"&#xbb;</title>
+        <meta charset='utf-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+
+        <!-- Стили для шапки и подвала сайта -->
+        <link rel='stylesheet' href='styles/CSS/general.css'/>
+        <!-- Собственные стили страницы "Главная"-->
+        <link rel='stylesheet' href='styles/CSS/main.css'/>
+        <!-- Стили кнопок -->
+        <link rel='stylesheet' href='styles/CSS/button_style.css'/>
+        <!-- Стили формы обратной связи-->
+        <link rel='stylesheet' href='styles/CSS/feedback_form.css'/>
+        
+        <link rel='stylesheet' href='styles/CSS/navbar.css'/>
+    </head>
+
+    <body>
+        <!-- Шапку вставляет JavaScript-код general_script.js -->
+        <header>
+            
+            </div>
+        </header>
+
+        <!-- Галерея изображений из gallery_images.xml -->
+        <figure class='gallery'>
+            <button class='gallery__prev-button' onclick='nextImage(-1)'>&#10094;</button>
+            <button class='gallery__next-button' onclick='nextImage(1)'>&#10095;</button>
+        </figure>
+
+        <main>
+            <!-- Раздел с представлениями -->
+            <article class='main__performances-article'>
+                <h1 class='main__article__heading'>Концерты</h1>
+                
+                <div class='main__performances-article__div'>
+                    <!-- Сюда будут вставляться блоки представлений -->
+                </div>
+                <a href='ch-performances.html' class='button-style'
+                   id='main__performances-article__link-to-performances'>Все концерты</a>
+            </article>
+
+            <!-- Раздел с новостями -->
+            <article class='main__news-article'>  
+                <h1 class='main__article__heading'>Новости</h1>
+                
+                <div class='main__news-article__div'>
+                    <!-- Сюда будут вставляться блоки новостей -->
+                </div>                
+                <a href='ch-news.html' class='button-style'
+                   id='main__news-article__link-to-news'>Все новости</a>
+            </article>
+
+            <!-- Раздел с краткой историей театра -->
+            <article class='main__about-us-article'>
+                <h1 class='main__article__heading'>О нас</h1>
+                <figure><img src='images/theatre.jpg' alt='Концертный зал'/></figure>
+
+                <article class='main__about-us-article__article'>
+                    <h2 class='main__about-us-article__article__title'>Концертный зал &#xab;"C-Hall"&#xbb;</h2>
+                    <title>Концертный зал &#xab;"C-Hall"&#xbb;</title>
+                </article>
+                <a href='ch-history.html' class='button-style'
+                   id='main__about-us-article__link-to-history'>История концертного зала</a>
+            </article> 
+            
+            <!-- Раздел с формой обратной связи -->
+            <article class='main__feedback-article'>
+                <h1 class='main__article__heading'>Написать нам</h1>
+                <!--Сюда будет вставляться форма обратной связи -->
+             </article> 
+        </main>
+
+        <!-- Подвал вставляет JavaScript-код general_script.js -->
+        <footer></footer>
+
+        <!-- Вставляет шапку и подвал -->
+        <script src='scripts/general_script.js'></script>
+        <!-- Формирует галерею,
+             вставляет блоки представлений из performances_info.xml на основе main_perf_block.html,
+             вставляет блоки новостей из news_list.xml на основе news_block.html,
+             вставляет форму обратной связи на основе feedback_form.html -->
+        <script src='scripts/main_script.js'></script>
+    </body>
+</html>

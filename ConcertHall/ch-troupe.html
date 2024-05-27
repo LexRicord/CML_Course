@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='be'>
+    <head>
+        <title>Местные артисты | Концертный зал &#xab;"C-Hall"&#xbb;</title>
+        <meta charset='utf-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+
+        <!-- Стили для шапки и подвала сайта -->
+        <link rel='stylesheet' href='styles/CSS/general.css'/>
+        <link rel='stylesheet' href='styles/CSS/troupe.css'/>
+    </head>
+
+    <body>
+        <!-- Шапку вставляет JavaScript-код general_script.js -->
+        <header></header>
+
+        <main>
+            <article class='main__troupe-article'>
+                <h1 class='main__article__page-heading'>Местные артисты</h1>
+                <hr class='main__article__heading-line'/>
+
+                <div class='main__troupe-article__div'>
+                    <!-- Состав труппы вставляет troupe_script.js -->
+                </div>
+            </article>
+        </main>
+
+        <!-- Подвал вставляет JavaScript-код general_script.js -->
+        <footer></footer>
+        <!-- Вставляет шапку и подвал -->
+        <script src='scripts/general_script.js'></script>
+        <!-- Создаёт и вставляет блоки состава труппы из troupe_list.xml -->
+        <script src='scripts/troupe_script.js'></script>
+    </body>
+</html>
